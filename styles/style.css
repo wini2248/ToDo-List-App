@@ -1,0 +1,22 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+
+.main {
+    display: block;
+}
