@@ -10,7 +10,15 @@
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #888888;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.tasks__item--hidden {
+    display: none;
+}
+
+.tasks__content {
+    word-break: break-word;
 }
 
 .tasks__content--done {
